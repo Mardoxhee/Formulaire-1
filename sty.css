@@ -1,0 +1,239 @@
+body{
+    
+    display: flex;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient( to bottom right, #8cc6ec, #9599e2 );
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items:center;
+}
+.gauche{
+    background-color: white;
+    height: 70vh;
+    width: 30%;
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 1%;
+}  
+.Droite{
+    background-color: #4935d4;
+    height: 70vh;
+    width: 30%;
+    border-bottom-right-radius: 1%;
+    border-top-right-radius: 1%;
+}
+ .gauche input, select{
+    border: transparent ;
+    background-color: transparent;
+    border-bottom: 1px #b9b9b9 solid;
+    padding: 2%;
+  
+}
+
+.Droite input, select{
+    background-color: transparent;
+    border: transparent ;
+    border-bottom: 1px rgb(179, 175, 175) solid;
+    padding: 2%;
+    
+}
+.Droite  select:focus{
+    outline-color: none;
+ 
+}
+
+.Droite input:focus{
+    outline: none;
+   
+}
+.gauche select:focus{
+    outline-color: none;
+ 
+}
+
+.gauche input:focus{
+    outline: none;
+
+}
+.gauche  {
+    padding: 3%;
+    
+}
+.Droite{
+    padding: 3%;
+    font-size: 1.3rem;
+}
+
+.names{
+    margin: 5% 0%;
+}
+.add   {
+    margin: 5% 0%;
+}
+/* .submit{
+    border: none;
+    outline: none;
+    margin-top: 70px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in; */
+/* } */
+.mail  {
+    margin-bottom: 70px;
+}
+.lname{
+    width: 46%;
+    margin-left: 10px;
+}
+ .fname{
+    width: 43%;
+ }  
+ .gauche .tit{
+     margin: 0 0;
+     width: 100%;
+ }
+ .tit{
+     width: 100%;
+ }
+ .Position{
+     margin: 0 0;
+     width: 100%;
+ }
+
+.Company{
+    margin: 5% 0% ;
+}
+.comp{
+    width: 95%;
+ }
+.bs{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ba {
+    width: 53%;
+}
+.emp{
+    width: 40%;
+}
+.Droite{
+color: white;
+}
+.Droite select {
+    color: white;
+}
+.Droite input::placeholder{
+    opacity: 1;
+    color:white;
+}
+.str{
+    width: 96%;
+}
+.ad{
+    width: 96%;
+}
+.zp{
+    display: flex;
+    justify-content: space-between; 
+}
+.z{
+    width: 30%;
+}
+.p{
+    width: 62%;
+}
+.ctr{
+    margin-top: 5%;
+    width: 100%;
+}
+.nm{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between; 
+}
+.phn{
+    width: 58%;
+}
+.cdp{
+    width: 30%;
+}
+.mail{
+    margin-top: 5%;
+   
+}
+.ml{
+    width: 96%;
+}
+.lab{
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+
+}
+.rad{
+    display: none;
+
+}
+.splab{
+    width: calc(100% -6px);
+    height: calc(100% -6px) ;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 1;
+    display: inline-block;
+
+}
+.divlab{
+    display: flex;
+    margin: 15px 0px;
+}
+a{
+    color: white;
+    font-weight: bold;
+}
+
+#radio{
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+/* cursor: pointer; */
+}
+#idradio{
+display: none;
+}
+.spradio
+{
+width: calc(100% - 6px);
+height: calc(100% - 6px);
+border-radius: 50%;
+background-color:white;
+opacity: 1;
+display: inline-block;
+}
+.rd{
+display: flex;
+margin: 15px 0px;
+}
